@@ -445,6 +445,7 @@ public class Ventana extends JFrame{
                 text1 = text1.substring(0, text1.length()-text1.length());
                 text2 = text2.substring(0, text2.length()-text2.length());
                 resultado = resultado.substring(0, resultado.length()-resultado.length());
+                validar = 0;
                 caja_texto.removeAll();
                 caja_texto.setText("--");
                 pantalla_cal.add(caja_texto);
